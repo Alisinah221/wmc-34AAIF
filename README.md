@@ -6,5 +6,7 @@ Willkommen zur Webprogrammierung
 3 Schritte zum syncen
 
 - stagen
+
 -commit
+
 -push
