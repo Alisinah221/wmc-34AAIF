@@ -1,0 +1,60 @@
+
+body{
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+.contactMe{
+    height: 700px;
+    width: 1200px;
+    background-color: white;
+    border-radius: 55px;
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-shadow: 6px 6px 6px -2px rgba(0, 0 , 0, 0.4);
+    overflow: hidden;
+
+}
+.tabsOnTheRight{
+    height: 50px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 0px -1px rgba(0, 0, 0, 0.5);
+    
+}
+.listItems{
+    font-size: 20px;
+    padding: 20px;
+    margin: 0px 10px 0px 10px;
+   }
+   .listItems:hover{
+       background-color: lightgray;
+       color: white;
+       cursor: pointer;
+   
+   }
+   .listItems:active{
+       background-color: darkgray;
+       color: white;
+   }
+   a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+}
