@@ -1,0 +1,68 @@
+body{
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+.page{
+    height: 700px;
+    width: 1200px;
+    background-color: white;
+    border-radius: 55px;
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    box-shadow: 6px 6px 6px -2px rgba(0, 0 , 0, 0.4);
+
+}
+
+.tabsOnTheRight{
+    height: 50px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 0px -1px rgba(0, 0, 0, 0.5);
+    
+}
+
+.listItems{
+ font-size: 20px;
+ padding: 20px;
+ margin: 0px 10px 0px 10px;
+}
+.listItems:hover{
+    background-color: lightgray;
+    color: white;
+    cursor: pointer;
+
+}
+.listItems:active{
+    background-color: darkgray;
+    color: white;
+}
+
+.introduction{
+    padding: 10px;
+    margin: 20px;
+    font-size: 30px;
+}
+.name{
+    color: cyan;
+    font-family: cursive;
+    
+}
+.profile{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    box-shadow: 4px 4px 4px -3px rgba(0, 0, 0, 0.3);
+}
+.pageContainer{
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
