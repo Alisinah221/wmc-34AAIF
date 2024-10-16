@@ -1,0 +1,68 @@
+#i{
+    font-size: 50px;
+    color: darkcyan;
+    padding: 8px;
+    margin: 8px;
+    border: 1px solid;
+    max-width: fit-content;
+    transition: 0.5s;
+}
+#i:hover{
+    background-color: darkcyan;
+    color: white;
+    cursor: pointer;
+}
+div p {
+font-size: 30px;
+border: solid 1px;
+max-width: fit-content;
+margin: 20px;
+padding: 30px;
+}
+div p:hover{
+    cursor: pointer;
+    background-color:black;
+    color: white;
+    transition: 0.4s;
+}
+
+.jooo{
+    border: solid 2px orange;
+    color: orange;
+    max-width: fit-content;
+    margin: 30px;
+    padding:30px;
+    font-size: 60px;
+
+}
+
+.dudu{
+    border: 1px solid darkgray;
+    max-width: fit-content;
+    margin: 20px;
+    padding: 20px;
+
+}
+.dudu::before{
+    content: "Hello";
+}
+.dudu2{
+    font-size: 30px;
+    border: solid 1px red;
+    max-width: fit-content;
+    margin: 60px;
+    padding: 60px;
+}
+.dudu2::after{
+    content: "(after)";
+    border: 1px solid lightblue;
+    margin: 20px;
+    padding: 20px;
+    transition: 0.4s;
+    color: lightblue;
+}
+.dudu2::after:hover{
+    background-color: lightblue;
+    color: white;
+    cursor: pointer;
+}
