@@ -1,0 +1,26 @@
+:root {
+ --pulse-color-primary: #00ad6a;
+ --pulse-color-secondary: #eafaf0;
+ --pulse-color-accent: #1fe374;
+ --pulse-color-accent-rbg: rgb(31, 227, 116);
+
+ --pulse-color-dark: #080c16;
+ --pulse-color-dark-rgb: rgb(8, 12, 22);
+ --pulse-color-light: #d6dae5;
+ --pulse-color-background: #fcfcfc;
+/* Colors*/
+--bs-info-bg-subtle:var(--pulse-color-secondary);
+--bs-info-text-emphasis:var(--pulse-color-primary);
+--bs-danger-border-subtle:var(--pulse-color-primary);
+--bs-secondary-color:var(--pulse-color-dark);
+
+
+
+/*Custom styles*/
+.max {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+}
+
+
