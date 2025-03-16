@@ -2,38 +2,22 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-    <title>Primzahl-Checker</title>
-    <link rel="stylesheet"
-          href="style.css">
-    <script src="script.js"></script>
+      <meta charset="UTF-8">
+      <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+      <title>Primzahl-Checker</title>
+      <link rel="stylesheet"
+            href="style.css">
+      <script src="script.js"></script>
 </head>
 
 <body class="bodyEx">
-    <div class="container">
-        <div>
-            <p class="text">
-                Enter a Number:
-            </p>
-            <button onclick="checkPrime()">
-                Check-Number
-            </button>
-            <input type="number"
-                   class="input"
-                   id="numberInput">
-        </div>
-        <div>
-            <p class="ergebnis"
-               id="result">
 
-            </p>
-        </div>
-    </div>
-
-
-
+      <button id="fetchButton">Fetch JSON</button>
+      <textarea id="jsonOutput"
+                rows="10"
+                cols="50"
+                readonly></textarea>
 </body>
 
 </html>
