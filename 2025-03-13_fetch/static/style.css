@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: lightgoldenrodyellow;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+    display: grid;
+    background-color: wheat;
+    margin: 100px;
+    padding: 25px;
+}
+.text{
+    font-family: 'Courier New', Courier, monospace;
+}
+#textarea{
+    width: 100%;
+    height: 200px;
+    resize: none;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 80px;
+}
+#submit{
+    width: 100%;
+    height: 50px;
+    background-color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    cursor: pointer;
+}
