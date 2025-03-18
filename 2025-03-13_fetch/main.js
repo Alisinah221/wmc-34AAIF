@@ -8,7 +8,7 @@ const app = new Hono();
 app.get("/", serveStatic({ path: "./static/index.html" }));
 app.get("*", serveStatic({ root: "./static" }));
 app.get("/data", (c) => {
-    const myObject = {
+    const persom = {
       name: "Max",
       age: 2,
         address: {
@@ -18,7 +18,7 @@ app.get("/data", (c) => {
         yw: "Hello World!",
         date: new Date().toISOString(),
     };
-    return c.json(myObject);
+    return c.json(person);
   });
 
 
