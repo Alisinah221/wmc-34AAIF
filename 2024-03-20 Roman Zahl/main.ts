@@ -3,6 +3,7 @@ export function romanConverter(int: number) {
   if(int < 1 || int > 3999) {
     
     result = 'Number must be between 1 and 3999';
+    return result;
   }
  
 
